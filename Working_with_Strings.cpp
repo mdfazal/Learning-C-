@@ -10,6 +10,8 @@ int main()
     cout << phrase;
     cout << phrase.length();
     cout << phrase[0];
+    phrase[0] = 'B';
+    cout << phrase;
 
     return 0;
 }
