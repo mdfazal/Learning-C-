@@ -12,6 +12,10 @@ int main()
     cout << phrase[0];
     phrase[0] = 'B';
     cout << phrase;
+    cout << phrase.find("awesome", 0);
+    string phraseSub;
+    phraseSub = phrase.substr(9,3);
+    cout << phraseSub;
 
     return 0;
 }
