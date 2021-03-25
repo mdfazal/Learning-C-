@@ -20,6 +20,7 @@ int main()
     book2.title = "Lord of the Rings";
     book2.author = "Tolkien";
     book2.pages = 700;
+    book2.title = "Hunger Games";
 
     cout << book1.title;
     cout << book1.pages;
