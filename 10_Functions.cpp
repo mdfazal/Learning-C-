@@ -3,14 +3,17 @@
 
 using namespace std;
 
-void sayHi(string name){
-    cout << "Hello " << name;
-}
+void sayHi(string name, int age);
 
 int main()
 {
-    cout << "Top" << endl;
-    sayHi("Mike");
-    cout << "Bottom" << endl;
+    
+    sayHi("Mike", 60);
+    sayHi("Lubna", 16);
+    sayHi("Uzma", 20);
     return 0;
+}
+
+void sayHi(string name, int age){
+    cout << "Hello " << name << " you are " << age << "years old" << endl;
 }
