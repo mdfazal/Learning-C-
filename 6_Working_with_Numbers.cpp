@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cmath>
 using namespace std;
 
 int main()
@@ -11,6 +11,10 @@ int main()
     cout << 10%3 << endl;
     int wnum = 5;
     double dnum = 5.5;
-    cout << wnum ;
+    cout << wnum << endl;
+    cout << pow(2,5) << endl;
+    cout << sqrt(36) << endl;
+    cout << round(4.4) << endl;
+    cout << floor(4.8) << endl;
     return 0;
 }
