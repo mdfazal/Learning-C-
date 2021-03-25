@@ -2,4 +2,23 @@
 
 using namespace std;
 
-class 
+class Chef {
+    public:
+        void makeChicken(){
+            cout << "The chef makes chicken" << endl;
+        }
+        void makeSalad(){
+            cout << "The chef makes Salad" << endl;
+        }
+        void makeSpecialDish(){
+            cout << "The chef makes bbq ribs" <<endl;
+        }
+};
+
+int main()
+{
+    Chef chef;
+    chef.makeChicken();
+
+    return 0;
+}
