@@ -13,6 +13,9 @@ int main()
     string *pName = &name;
 
     cout << pAge << endl;
+    cout << *pAge << endl;
+    cout << *&gpa << endl;
+    cout << &*&gpa << endl;
 
     cout << "Age :" << &age << endl;
     cout << "gpa :" << &gpa << endl;
