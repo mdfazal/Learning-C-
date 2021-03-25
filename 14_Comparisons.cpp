@@ -10,9 +10,13 @@ int getMax(int num1, int num2){
     {
         result = num1;
     }
+    else
+    {
+        result = num2;
+    }
 }
 int main()
 {
-
+    cout << getMax(2, 5);
     return 0;
 }
