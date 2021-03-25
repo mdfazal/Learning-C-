@@ -16,5 +16,6 @@ int main()
     cout << sqrt(36) << endl;
     cout << round(4.4) << endl;
     cout << floor(4.8) << endl;
+    cout << fmax(3,10) << endl;
     return 0;
 }
