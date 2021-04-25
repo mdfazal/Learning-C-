@@ -16,4 +16,17 @@ int main()
     int c;
     cout << "Enter your third side ";
     cin >> c;
+
+    if (a == b && b == c && c == a)
+    {
+        cout << "Its an Equilateral Triangle";
+    } 
+    else if(a == b || b == c)
+    {
+        cout << "Its an isoceles Triangle";
+    }
+    else 
+    {
+        cout << "Its a Scalene Triangle";
+    }
 }
