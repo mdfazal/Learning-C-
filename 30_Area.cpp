@@ -8,17 +8,18 @@ int main()
     double area;
     int c;
     float r, s, l , b;
-    cout << "1. Area of a Circle";
-    cout << "2.Area of a Square";
-    cout << "3.Area of a rectangle";
-    cout << "Enter your Choice";
+    cout << "1. Area of a Circle" << endl;
+    cout << "2.Area of a Square" << endl;
+    cout << "3.Area of a rectangle" << endl;
+    cout << "Enter your Choice" << endl;
+    cin >> c;
 
     switch (c)
     {
     case 1:
         cout << "Enter the radius of the circle";
         cin >> r;
-        area = 3.14*r;
+        area = 3.14*r*r;
         cout << "Area of the circle is "<< area ;
         break;
 
