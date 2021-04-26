@@ -5,17 +5,19 @@ using namespace std;
 
 int main()
 {
-    int product, sum=0;
-    int n;
+    int product, product1 ,d, sum=0;
+    int n, num;
     cout << "Enter a number";
     cin >> n;
     product = n*n;
-    while (product >0)
+  
+    while (product > 0)
     {
         d = (int) product%10;
         sum = sum+d;
+        product = product/10;
     }
-    if(sum = n)
+    if(sum == n)
     {
         cout << "Its a neon number";
     }
