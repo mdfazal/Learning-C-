@@ -7,7 +7,7 @@ int main()
 {
     int i, sum=0;
     int n;
-    cout << "Enter a numer" << endl;
+    cout << "Enter a number" << endl;
     cin >> n;
     for (i = 1; i < n; i++)
     {

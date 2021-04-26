@@ -7,7 +7,7 @@ int main()
 {
     int a,b,c,d=3;
     int n;
-    cout << "Enter a numer" << endl;
+    cout << "Enter a number" << endl;
     cin >> n;
     a=0;
     b=1;
