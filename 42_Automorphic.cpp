@@ -3,8 +3,35 @@
 
 using namespace std;
 
+bool isAutomorphic(int N)
+{
+    // Store the square
+    int sq = N * N;
+  
+    // Start Comparing digits
+    while (N > 0) {
+        // Return false, if any digit of N doesn't
+        // match with its square's digits from last
+        if (N % 10 != sq % 10)
+            return false;
+  
+        // Reduce N and square
+        N /= 10;
+        sq /= 10;
+    }
+  
+    return true;
+}
+  
+// Driver code
 int main()
 {
-    int r1, r2, number, num1, num2, count = 0;  
-    cout << "Enter the number you want to check: ";   
-    cin >> number;
+    int N;
+    cout << "eNTER A NUMBER";
+    cin >> N;
+  
+    isAutomorphic(N) ? cout << "Automorphic"
+                     : cout << "Not Automorphic";
+  
+    return 0;
+}
